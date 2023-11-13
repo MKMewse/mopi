@@ -6,9 +6,9 @@ import (
 	"log/slog"
 	"os"
 
-	"mk.io/controller/mongodb"
+	"mk.io/controller/mopi/pkg/mongodb"
 	"mk.io/controller/mopi/pkg/server"
-	"mk.io/controller/startup"
+	"mk.io/controller/mopi/pkg/startup"
 )
 
 type MopiConfig struct {
